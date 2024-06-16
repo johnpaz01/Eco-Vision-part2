@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url('../IMG/space.jpg');
+    background: url('https://johnpaz01.github.io/SITE-PCE-CSS/IMG/space.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 0px;
@@ -176,7 +176,7 @@ main section .btn-box {
 
 .about-topic {
     display: grid;
-    background: url('/IMG/Planeta-terra.jpg') no-repeat center center;
+    background: url('https://johnpaz01.github.io/SITE-PCE-CSS/IMG/Planeta-terra.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     padding: 4rem 2rem;
