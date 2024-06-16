@@ -1,0 +1,297 @@
+/* Reset básico e importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url('../IMG/space.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 0px;
+}
+
+/* Estilos para o header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+    padding-bottom: 5rem;
+}
+
+header .logo {
+    width: 150px;
+}
+
+.navegation ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navegation ul li a {
+    color: #fff;
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .6s;
+    scroll-behavior: smooth;
+}
+
+.navegation ul li a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(88, 51, 51);
+    background-color: red;
+    padding: 8px 12px;
+}
+
+#Login {
+    background-color: red;
+    padding: 5px 8px;
+}
+
+#Login:hover {
+    transition: all .6s;
+    padding: 8px 10px;
+    background-color: #400881;
+}
+
+#family {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    margin-right: 2rem;
+    margin-top: 8rem;
+    padding-bottom: 15rem;
+    gap: 7rem;
+}
+
+#family h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+#family p {
+    color: #876925;
+}
+
+#family img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Estilos para main */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #fffefe;
+}
+
+main section {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.1rem;
+}
+
+main section h1 {
+    font-size: 5rem;
+    margin-top: 5rem;
+    color: #3f265de8;
+}
+
+main section p {
+    font-size: 1.7rem;
+    overflow: auto;
+}
+
+main section button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(88, 51, 51);
+    background-color: rgb(35, 0, 78);
+    padding: 8px 12px;
+    transition: all .6s;
+}
+
+main section button {
+    font-size: 1.4rem;
+    border: none;
+    color: #fff;
+    background-color: #3f265de8;
+    border-radius: 10px;
+    border-bottom: 2px solid rgba(109, 43, 116, 0.615);
+    padding: 8px 12px;
+    margin-bottom: 4rem;
+    scroll-behavior: smooth;
+}
+
+main section .btn-box {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+#vazio {
+    margin-top: 2rem;
+    color: #c1ff10e8;
+    font-size: 3.8rem;
+}
+
+#trophy {
+    font-size: 2rem;
+    color: #79881a;
+}
+
+#location-text:hover {
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 1.55rem;
+    color: #f51e1e;
+    text-decoration: underline;
+}
+
+#pix {
+    color: #23c4f5;
+}
+
+.about-topic i {
+    color: red;
+    font-size: 20px;
+}
+
+.about-topic {
+    display: grid;
+    background: url('/IMG/Planeta-terra.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 4rem 2rem;
+    color: #fff;
+}
+
+.about-topic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.about-topic h2,
+.about-topic p {
+    position: relative;
+    z-index: 2;
+}
+
+.about-topic h2 {
+    font-size: 3.4rem;
+    color: #c1ff10e8;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-topic p:hover {
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 1.55rem;
+    color: #79881a;
+    text-decoration: underline;
+}
+
+.about-topic p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: 3rem;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para links-about-me */
+.links-about-me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background: #100d28;
+}
+
+.links-about-me section {
+    flex: 1;
+    padding: 0 20px;
+    min-width: 200px;
+}
+
+.links-about-me h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links-about-me p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.links-about-me p:hover {
+    cursor: pointer;
+    color: #23c4f5;
+}
+
+.links-about-me a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-about-me a:hover {
+    text-decoration: underline;
+    color: #23c4f5;
+}
+
+#main-links {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background: #100d28;
+}
+/* Estilos para centralizar o contêiner */
+.container {
+    display: contents;
+    height: 100vh; 
+    padding: 20px;
+}
+
+#h1-display{
+    font-size: 3rem;
+    color: #fff;
+    background: #100d28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: solid;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
