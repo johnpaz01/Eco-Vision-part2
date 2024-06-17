@@ -51,3 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Inicia o slideshow automático
   startSlideShow();
 });
+
+document.getElementById('Login').addEventListener('click', function() {
+  window.location.href = 'https://johnpaz01.github.io/SITE-PCE-CSS/Login/index.html'; // Substitua pela URL desejada
+});
