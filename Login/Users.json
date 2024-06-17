@@ -1,0 +1,9 @@
+{
+    "users": [
+        {
+            "login": "usuarioExemplo",
+            "senha": "senhaExemplo"
+        }
+        
+    ]
+}
