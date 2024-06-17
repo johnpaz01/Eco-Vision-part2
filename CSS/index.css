@@ -276,14 +276,15 @@ main section .btn-box {
     padding: 20px;
     background: #100d28;
 }
+
 /* Estilos para centralizar o contêiner */
 .container {
     display: contents;
-    height: 100vh; 
+    height: 100vh;
     padding: 20px;
 }
 
-#h1-display{
+#h1-display {
     font-size: 3rem;
     color: #fff;
     background: #100d28;
@@ -294,38 +295,40 @@ main section .btn-box {
     padding-bottom: 10px;
     text-transform: uppercase;
 }
+
 /*Init slider*/
 
-.slider{
+.slider {
     margin: 0 auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
 }
-.slides{
+
+.slides {
     width: 400%;
     height: 400px;
     display: flex;
     transition: all 0.6s ease-in-out;
 }
 
-.slides input{
+.slides input {
     display: none;
 
 }
 
 
-.slide{
+.slide {
     width: 25%;
     position: relative;
     border-radius: 20px;
 }
 
-.slide img{
+.slide img {
     width: 800px;
 }
 
-.manual-navigation{
+.manual-navigation {
 
     position: absolute;
     width: 800px;
@@ -334,21 +337,20 @@ main section .btn-box {
     justify-content: center;
 }
 
-.manual-btn{
+.manual-btn {
     border: 2px solid #fff;
     padding: 8px;
-    border-radius:10px ;
+    border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
 
-.manual-btn:not(:last-child){
-    margin-right:25px;
+.manual-btn:not(:last-child) {
+    margin-right: 25px;
 }
-.manual-btn:hover{
+
+.manual-btn:hover {
     background-color: #fff;
     border: 2px solid #400881;
 
 }
-
-
