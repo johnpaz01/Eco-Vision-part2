@@ -138,7 +138,7 @@ main section .btn-box {
 
 .about-topic {
     display: grid;
-    background: url('../IMG/Plantacao.jpg') no-repeat center center;
+    background: url('https://johnpaz01.github.io/Eco-Vision-part2/IMG/Plantacao.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     padding: 4rem 2rem;
